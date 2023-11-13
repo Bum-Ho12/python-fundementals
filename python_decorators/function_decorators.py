@@ -1,5 +1,5 @@
 import logging
-from abc import ABC, abstractmethod
+# from abc import ABC, abstractmethod
 from math import sqrt
 from time import perf_counter
 from typing import Any, Callable
@@ -29,9 +29,9 @@ def benchmark( func: Callable[...,Any]) -> Callable[...,Any]:
         return value
     return wrapper
 
-'''
-The original setup before including the decorator acceptance info
-'''
+
+## The original setup before including the decorator acceptance info
+
 # def with_logging( func: Callable[...,Any]) -> Callable[...,Any]:
 #     def wrapper(*args: Any, **kwargs: Any) -> Any:
 #         logging.info(f"calling {func.__name__}")

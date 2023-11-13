@@ -3,6 +3,7 @@ from typing import Self
 
 @dataclass
 class InfiniteNumberIterator:
+
     num: int = 0
 
     def __iter__(self) -> Self:

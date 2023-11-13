@@ -5,8 +5,8 @@ def main() -> None:
     #     print(i)
     #     if i==15:
     #         break
-    items = ['a','b','c']
-    second_items = ['d','e','f']
+    # items = ['a','b','c']
+    # second_items = ['d','e','f']
     # perms = itertools.permutations(items,2)
     # perms = itertools.combinations(items,2)
     # perms = itertools.combinations_with_replacement(items,2)
